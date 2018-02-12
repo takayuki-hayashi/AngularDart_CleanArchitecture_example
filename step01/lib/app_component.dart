@@ -4,13 +4,18 @@ import 'package:step01/src/component_center.dart';
 import 'package:step01/src/component_left.dart';
 import 'package:step01/src/component_list.dart';
 import 'package:step01/src/component_right.dart';
+import 'package:step01/src/component_search.dart';
+import 'package:step01/src/item.dart';
+import 'package:step01/src/name.dart';
 
 @Component(
   selector: 'my-app',
   styleUrls: const ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: const [materialDirectives,ComponentCenter, ComponentLeft, ComponentRight, ComponentList],
-  providers: const [materialProviders],
+  directives: const [materialDirectives,ComponentCenter, ComponentLeft, ComponentRight, ComponentList, ComponentSearch],
+  providers: const [
+    materialProviders,Name,Items, ItemUseCase, ItemGateway
+  ],
 )
 class AppComponent {
 }

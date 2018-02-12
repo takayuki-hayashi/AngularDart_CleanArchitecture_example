@@ -19,3 +19,15 @@
 - usecase
 - domain
   - Domain Model
+
+
+### layer(Clean Architecture)
+
+- domain layer
+  - domain
+- Use Case layer
+  - usecase, port
+- Gateway, Presenters layer
+  - gateway, component, state, view_state
+- Web layer
+  - web

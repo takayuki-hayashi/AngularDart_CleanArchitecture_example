@@ -40,8 +40,8 @@ List<String> item() {
     return item3;
 }
 
-const List<String> item1 = const ["福岡","佐賀","熊本"];
-const List<String> item2 = const ["福岡","佐賀","熊本","長崎","大分"];
-const List<String> item3 = const ["福岡","佐賀","熊本","長崎","大分","宮崎","鹿児島"];
+const List<String> item1 = const ["United States","United Kingdom","Japan"];
+const List<String> item2 = const ["Italia","Nederland","Canada","United States","United Kingdom"];
+const List<String> item3 = const ["Nederland","Canada","United States","Japan","Spain"];
 
 int count = 0;

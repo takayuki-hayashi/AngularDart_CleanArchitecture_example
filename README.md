@@ -31,3 +31,7 @@
   - gateway, component, state, view_state
 - Web layer
   - web
+
+### Unidirectional data flow
+
+![Unidirectional data flow](https://github.com/takayuki-hayashi/AngularDart_CleanArchitecture_example/udf.png "Unidirectional data flow")
